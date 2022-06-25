@@ -17,3 +17,25 @@ getFizzBuzz(5);
 console.log(getFizzBuzz(15));
 console.log(getFizzBuzz(4));
 console.log(getFizzBuzz('k'));
+
+
+
+let str = '';
+function count() {
+  for (let i = 0; i < 10; i++) {
+    str = str + i;
+  }
+}
+console.log(str);
+// expected output: "012345678"
+
+
+let stars = 10;
+let string = "";
+for (let i = 1; i <= stars; i++) {
+  for (let j = 0; j < i; j++) {
+    string += "*";
+  }
+  string += "\n";
+}
+console.log(string);
