@@ -306,18 +306,20 @@ const you = 'Jonas';
 console.log(`I'm ${2037 - 1991} years old ${you}`);
 
 // The Conditional (Ternary) Operator
-const age = 23;
+const newAge = 23;
 // age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 💧');
 
-const drink = age >= 18 ? 'wine 🍷' : 'water 💧';
+const drink = newAge >= 18 ? 'wine 🍷' : 'water 💧';
 console.log(drink);
 
 let drink2;
-if (age >= 18) {
+if (newAge >= 18) {
   drink2 = 'wine 🍷';
 } else {
   drink2 = 'water 💧';
 }
 console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
+console.log(`I like to drink ${newAge >= 18 ? 'wine 🍷' : 'water 💧'}`);
+
+// Coding Challenge #4
