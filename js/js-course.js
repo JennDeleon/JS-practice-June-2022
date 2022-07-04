@@ -262,3 +262,32 @@ function theWinnerIs (dolphins, koalas) {
 }
 
 theWinnerIs();
+
+
+//SWITCH STATEMENTS
+
+
+const day = "Tuesday";
+switch (day) {
+  case 'Monday':
+    console.log("Practice JS");
+    console.log("Watch Alex");
+    break;
+  case 'Tuesday':
+    console.log("Interview!");
+}
+
+if (day === 'monday') {
+  console.log("Practice JS");
+  console.log("Watch Alex");
+} else if (day === 'tuesday') {
+  console.log("Interview!");
+} else if (day === 'wednesday' || day === 'thursday') {
+  console.log('Write code examples');
+} else if (day === 'friday') {
+  console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+  console.log('Enjoy the weekend :D');
+} else {
+  console.log('Not a valid day!');
+}
