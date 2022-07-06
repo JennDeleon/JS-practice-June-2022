@@ -349,3 +349,13 @@ const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 
 
+function fruitProcessor(apples, oranges) {
+  // return `Juice with ` + apples + ` apples and ` + oranges + ` oranges.`
+
+  // using a template literal (below) is the cleaner way to type it.
+
+  return `Juice with ${apples} apples and ${oranges} oranges. `
+
+}
+
+console.log(fruitProcessor(5, 0));
