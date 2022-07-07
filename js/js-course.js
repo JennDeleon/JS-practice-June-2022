@@ -436,3 +436,21 @@ console.log(arrayyys);
 // the function you created before
 // 4. Bonus: Create an array 'total' containing the total values, so the bill + tip
 // Test data: 125, 555 and 44
+
+
+function tipCalc(bill){
+  if (bill > 50 || bill < 300){
+    return (bill * .15)
+  } else {
+    return (bill * .20)
+  }
+}
+console.log(tipCalc(100));
+
+let bills = [125, 555, 44];
+
+let tips = ("tips = " + [tipCalc(bills[0]), tipCalc(bills[1]), tipCalc(bills[2])]);
+console.log(tips)
+
+let total = [("the first bill was " +  bills[0] + " the tip was " + [tipCalc(bills[0]), " the second bill was " +  bills[1] + " the tip was " + tipCalc(bills[1]), " and the third bill was " +  bills[2] + " the tip was " + tipCalc(bills[2])])]
+console.log(total);
