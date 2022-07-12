@@ -474,3 +474,16 @@ function logger() {
 logger();
 logger();
 logger();
+
+function fruitProcessors(apples, oranges) {
+  const juices = `Juice with ${apples} apples and ${oranges} oranges.`;
+  return juices;
+}
+
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
+
+const num = Number('23');
