@@ -454,3 +454,13 @@ console.log(tips)
 
 let total = [("the first bill was " +  bills[0] + " the tip was " + [tipCalc(bills[0]), " the second bill was " +  bills[1] + " the tip was " + tipCalc(bills[1]), " and the third bill was " +  bills[2] + " the tip was " + tipCalc(bills[2])])]
 console.log(total);
+
+// Activating Strict Mode
+let hasDriverLicense = false;
+const passTest = true;
+
+if (passTest) hasDriverLicense = true;
+if (hasDriversLicense) console.log('I can drive :D');
+
+// const interface = 'Audio';
+// const private = 534;
