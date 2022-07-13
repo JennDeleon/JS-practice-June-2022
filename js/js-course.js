@@ -487,3 +487,9 @@ const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
 
 const num = Number('23');
+
+// Function declaration
+function calcAge1(birthYeah) {
+  return 2037 - birthYeah;
+}
+const age1 = calcAge1(1991);
