@@ -573,3 +573,5 @@ A team ONLY wins if it has at least DOUBLE the average score of the other team. 
 // HINT: To calculate average of 3 values, add them all together and divide by 3
 // HINT: To check if number A is at least double number B, check for A >= 2 * B. Apply this to the team's average scores
 
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(3, 4, 5));
