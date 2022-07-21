@@ -627,3 +627,13 @@ friends[2] = 'Jay';
 console.log(friends);
 // friends = ['Bob', 'Alice']
 
+const firstNames = 'Jonas';
+const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+console.log(jonas);
+console.log(jonas.length);
+
+// Exercise
+const calcAge = function (birthYeah) {
+  return 2037 - birthYeah;
+}
+const years = [1990, 1967, 2002, 2010, 2018];
