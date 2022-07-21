@@ -670,3 +670,8 @@ const john = {
     return this.bmi;
   }
 }
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log("mark " + mark.bmi , "jonh " + john.bmi);
