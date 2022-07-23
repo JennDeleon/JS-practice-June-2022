@@ -723,7 +723,6 @@ for (let i = 0; i < jonas.length; i++) {
   // types[i] = typeof jonas[i];
   types.push(typeof jonas[i]);
 }
-
 console.log(types);
 
 const year = [1991, 2007, 1969, 2020];
@@ -738,14 +737,12 @@ console.log(ages);
 console.log('--- ONLY STRINGS ---')
 for (let i = 0; i < jo.length; i++) {
   if (typeof jo[i] !== 'string') continue;
-
   console.log(jo[i], typeof jo[i]);
 }
 
 console.log('--- BREAK WITH NUMBER ---')
 for (let i = 0; i < jonas.length; i++) {
   if (typeof jonas[i] === 'number') break;
-
   console.log(jonas[i], typeof jonas[i]);
 }
 
