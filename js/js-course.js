@@ -700,3 +700,13 @@ for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
 }
 
+// Looping Arrays, Breaking and Continuing
+const jo = [
+  'Jo',
+  'Schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Michael', 'Peter', 'Steven'],
+  true
+];
+const types = [];
