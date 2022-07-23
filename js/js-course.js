@@ -710,3 +710,18 @@ const jo = [
   true
 ];
 const types = [];
+
+console.log(jonas[0])
+console.log(jonas[1])
+console.log(jonas[4])
+
+for (let i = 0; i < jonas.length; i++) {
+  // Reading from jonas array
+  console.log(jonas[i], typeof jonas[i]);
+
+  // Filling types array
+  // types[i] = typeof jonas[i];
+  types.push(typeof jonas[i]);
+}
+
+console.log(types);
