@@ -905,5 +905,17 @@ const measureKelvin = function () {
     // value: Number(prompt('Degrees celsius:')),
     value: 10,
   };
-}
+
+  // B) FIND
+  console.table(measurement);
+
+  // console.log(measurement.value);
+  // console.warn(measurement.value);
+  // console.error(measurement.value);
+
+  const kelvin = measurement.value + 273;
+  return kelvin;
+};
+// A) IDENTIFY
+console.log(measureKelvin());
 
